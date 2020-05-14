@@ -1,0 +1,12 @@
+@mixin H1 {
+        color: $DarkGrayishBlue;
+        font-size: 3.5rem;
+}
+
+
+@mixin P1 {
+        color: $GrayishBlue;
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+}

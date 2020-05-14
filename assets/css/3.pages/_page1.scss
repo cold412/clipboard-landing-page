@@ -15,12 +15,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 10vh;
+    padding-top: 5vh;
     h1{
-        color: $DarkGrayishBlue;
-        font-weight: 600;;
+        @include H1;
     }
     p{
-        color: $GrayishBlue;
+        @include P1;
     }
+}
+
+
+.page1__buttons{
+    display: flex;
+    padding-top: 6vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 29vw;
+}
+
+.btn1{
+    @include BTN1;
+}
+
+
+.btn2{
+    @include BTN2;
 }
