@@ -268,6 +268,120 @@
   padding-top: 2vh;
 }
 
+.page5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page5 .page5__logos {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14vh 0vh;
+}
+
+.page5__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5vh;
+}
+
+.page5__text h1 {
+  color: #4c545d;
+  font-size: 3.5rem;
+}
+
+.page5__text p {
+  color: #9fabb2;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.page5__text__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 6vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 29vw;
+}
+
+.page5Btn1 {
+  width: 13vw;
+  height: 5vh;
+  background-color: #26baa4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.44);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.44);
+}
+
+.page5Btn1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.page5Btn2 {
+  width: 13vw;
+  height: 5vh;
+  background-color: #6173ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.44);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.44);
+}
+
+.page5Btn2 a {
+  text-decoration: none;
+  color: white;
+}
+
 * {
   font-family: "Bai Jamjuree", sans-serif;
 }

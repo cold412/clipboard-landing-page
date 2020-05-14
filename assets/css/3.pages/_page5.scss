@@ -1,0 +1,49 @@
+.page5{
+    display: flex;
+    flex-direction: column;
+
+    .page5__logos{
+        justify-content: space-around;
+        display: flex;
+        padding: 14vh 0vh;
+    }
+
+}
+
+
+
+.page5__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    h1{
+        @include H1;
+    }
+    p{
+        @include P1;
+    }
+}
+
+
+
+.page5__text__buttons{
+    display: flex;
+    padding-top: 6vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 29vw;
+}
+
+.page5Btn1{
+    @include BTN1;
+}
+
+
+.page5Btn2{
+    @include BTN2;
+}
+
+
+
