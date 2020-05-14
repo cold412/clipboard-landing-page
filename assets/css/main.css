@@ -146,6 +146,48 @@
   text-align: center;
 }
 
+.page2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5vh;
+}
+
+.page2 .page2__left {
+  position: relative;
+  right: 4vw;
+}
+
+.page2 .page2__left img {
+  width: 50vw;
+}
+
+.page2 .page2__right {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page2 h2 {
+  color: #4c545d;
+  font-size: 3.5rem;
+  font-size: 2rem;
+}
+
+.page2 p {
+  color: #9fabb2;
+  font-size: 1.5rem;
+  text-align: start;
+  padding-top: 2vh;
+}
+
 * {
   font-family: "Bai Jamjuree", sans-serif;
 }

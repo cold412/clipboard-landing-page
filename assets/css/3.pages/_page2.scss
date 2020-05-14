@@ -1,0 +1,29 @@
+.page2{
+    display: flex;
+    padding-top: 5vh;
+    .page2__left{
+        position: relative;
+        right: 4vw;
+        img{
+            width: 50vw;
+        }
+    }
+    .page2__right{
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        @include H1;
+        font-size: 2rem;
+    }
+    p{
+        
+        color: $GrayishBlue;
+        font-size: 1.5rem;
+        text-align: start;
+        padding-top: 2vh;
+    }
+}
+
+
