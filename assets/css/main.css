@@ -117,6 +117,35 @@
   color: white;
 }
 
+.page1__text2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page1__text2 h2 {
+  color: #4c545d;
+  font-size: 3.5rem;
+  padding-top: 15vh;
+}
+
+.page1__text2 p {
+  color: #9fabb2;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 * {
   font-family: "Bai Jamjuree", sans-serif;
 }

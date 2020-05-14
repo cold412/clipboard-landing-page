@@ -41,3 +41,21 @@
 .btn2{
     @include BTN2;
 }
+
+
+
+
+
+.page1__text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        @include H1;
+        padding-top: 15vh;
+    }
+    p{
+        @include P1;
+    }
+}
