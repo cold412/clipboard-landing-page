@@ -8,7 +8,44 @@
 
 .imageTop {
   background-image: url(/assets/img/bg-header-desktop.png);
-  height: 10vh;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page1__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10vh;
+}
+
+.page1__text h1 {
+  color: #4c545d;
+  font-weight: 600;
+}
+
+.page1__text p {
+  color: #9fabb2;
 }
 
 * {

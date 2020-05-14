@@ -1,4 +1,26 @@
 .imageTop{
     background-image: url(/assets/img/bg-header-desktop.png);
-    height: 10vh;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
+.page1__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    h1{
+        color: $DarkGrayishBlue;
+        font-weight: 600;;
+    }
+    p{
+        color: $GrayishBlue;
+    }
 }
