@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AQAA,OAAO,CAAC,sFAAI;ANAZ,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;AFMD,wBAAwB",
+    "mappings": "AQAA,OAAO,CAAC,sFAAI;ANAZ,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;AOJD,AAAA,SAAS,CAAA;EACL,gBAAgB,EAAE,sCAAsC;EACxD,MAAM,EAAE,IAAI;CACf;;ATSD,AAAA,CAAC,CAAC;EACE,WAAW,EQTF,cAAc,EAAE,UAAU;CRUtC",
     "sources": [
         "main.scss",
         "1.tools/_fonts.scss",
@@ -10,7 +10,8 @@
         "2.basics/_buttons.scss",
         "2.basics/_colors.scss",
         "2.basics/_links.scss",
-        "2.basics/_typography.scss"
+        "2.basics/_typography.scss",
+        "3.pages/_page1.scss"
     ],
     "names": [],
     "file": "main.css"
