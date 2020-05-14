@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AEAA,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;AFMD,wBAAwB",
+    "mappings": "AQAA,OAAO,CAAC,sFAAI;ANAZ,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;AFMD,wBAAwB",
     "sources": [
         "main.scss",
         "1.tools/_fonts.scss",
