@@ -1,0 +1,28 @@
+footer {
+  .footer__wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgba(192, 192, 192, 0.197);
+    height: 17vh;
+    .footer__logo {
+      img {
+        width: 7vh;
+      }
+    }
+    .footer__box{
+        h2{
+            padding-top: 2vh;
+            color: $DarkGrayishBlue;
+            font-weight: 400;
+        }
+    }
+
+    .footer__icons{
+        display: flex;
+        width: 10vw;
+        justify-content: space-evenly;
+    }
+  }
+}
