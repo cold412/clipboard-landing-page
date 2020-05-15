@@ -30,7 +30,18 @@
     padding-top: 6vh;
     justify-content: space-between;
     align-items: center;
-    width: 29vw;
+    min-width: 29vw;
+
+
+    @media only screen and (max-width: 1024px) {
+        flex-direction: column;
+        height: 19vh;
+      }
+
+
+    @media only screen and (max-width: 1624px) {
+    width: 39vw;
+      }
 }
 
 .btn1{

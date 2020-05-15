@@ -1,6 +1,5 @@
 @mixin BTN1 {
-    
-    width: 13vw;
+    width: 20vh;
     height: 5vh;
     background-color: $StrongCyan;
     display: flex;
@@ -15,6 +14,11 @@
         text-decoration: none;
     color: white;
     }
+
+
+    @media only screen and (max-width: 1024px) {
+    font-size: 1rem;
+      }
 }
 
 
@@ -25,8 +29,8 @@
 
 @mixin BTN2 {
     
-    width: 13vw;
-    height: 5vh;
+    width: 20vh;
+    min-height: 5vh;
     background-color: $LightBlue;
     display: flex;
     align-items: center;
@@ -36,10 +40,16 @@
     font-size: 1.2rem;
     font-weight: bold;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+
     a{
         text-decoration: none;
     color: white;
     }
+
+    @media only screen and (max-width: 1024px) {
+    font-size: 1rem;
+      }
+
 }
 
 
